@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,35 +9,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body> <ul>
-    <li><a href="#welcome">Rachel Cactus</a></li>
-    <li><a href="reels.html">reels</a></li>
-    <li><a href="photos.html">photos</a></li>
-    <li><a href="#contactos">contacto</a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-</ul>
-<section id="welcome">
-    <div id="bienvenido"></div>
-    <div id="cover">
-        <img class="profile" src="
+<body id="body" class="desaparecer">
+    <ul class="menu">
+        <li><a href="#welcome">Rachel Cactus</a></li>
+        <li><a href="reels.html">reels</a></li>
+        <li><a href="photos.html">photos</a></li>
+        <li><a href="#contactos">contacto</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+    <section id="welcome">
+        <div class="cover">
+            <img class="profile" src="
         animation_500_l9vlntvn.gif" alt="">
-        <div class="wrapper">
-            <div class="bg"> Cactus Rachel </div>
-            <div class="fg"> Cactus Rachel </div>
-          </div>
-    </div>
-</section>
-<section id="contactos">
-    <h2>contactos</h2>
-    <a target="_blank" href="https://instagram.com/tony.rachel.with.glamour?igshid=YmMyMTA2M2Y=/"><i class="fa fa-instagram">&nbsptony.rachel.with.glamour</i></a>&nbsp
-    <a target="_blank" href="https://wa.me/qr/XZ3YU3D5OFCKB1"><i class="fa fa-whatsapp">&nbsptony.rachel.whatsapp</i></a>
-</section>
-<script>
-    setTimeout(() => {
-document.getElementById('bienvenido').style.display = 'none';
-  }, 5000);
-</script>
+            <div class="wrapper">
+                <div class="bg"> Cactus Rachel </div>
+                <div class="fg"> Cactus Rachel </div>
+            </div>
+        </div>
+    </section>
+    <section id="contactos">
+        <h2>contactos</h2>
+        <a target="_blank" href="https://instagram.com/tony.rachel.with.glamour?igshid=YmMyMTA2M2Y=/"><i
+                class="fa fa-instagram">&nbsptony.rachel.with.glamour</i></a>&nbsp
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=50660689493&text=Hola Cactus Rachel 🌵"><i
+                class="fa fa-whatsapp">&nbsptony.rachel.whatsapp</i></a>
+    </section>
+    <script>
+        setTimeout(() => {
+            document.getElementById('body').classList.remove("desaparecer");;
+        }, 5000);
+    </script>
 </body>
 </html>
